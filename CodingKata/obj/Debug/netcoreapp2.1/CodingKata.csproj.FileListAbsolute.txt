@@ -1,0 +1,17 @@
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\bin\Debug\netcoreapp2.1\nunit.engine.dll
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\bin\Debug\netcoreapp2.1\nunit.engine.api.dll
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\bin\Debug\netcoreapp2.1\CodingKata.deps.json
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\bin\Debug\netcoreapp2.1\CodingKata.dll
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\bin\Debug\netcoreapp2.1\CodingKata.pdb
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\obj\Debug\netcoreapp2.1\CodingKata.csproj.CoreCompileInputs.cache
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\obj\Debug\netcoreapp2.1\CodingKata.AssemblyInfoInputs.cache
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\obj\Debug\netcoreapp2.1\CodingKata.AssemblyInfo.cs
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\obj\Debug\netcoreapp2.1\CodingKata.dll
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\obj\Debug\netcoreapp2.1\CodingKata.pdb
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\bin\Debug\netcoreapp2.1\testhost.exe
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\bin\Debug\netcoreapp2.1\testhost.dll
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\bin\Debug\netcoreapp2.1\CodingKata.runtimeconfig.json
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\bin\Debug\netcoreapp2.1\CodingKata.runtimeconfig.dev.json
+C:\Users\anes.abdelrahman\Documents\Visual Studio 2019\CodingKata\CodingKata\obj\Debug\netcoreapp2.1\CodingKata.csprojAssemblyReference.cache
