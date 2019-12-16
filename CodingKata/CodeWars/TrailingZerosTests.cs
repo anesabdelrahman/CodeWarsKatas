@@ -20,11 +20,18 @@ namespace CodingKata.CodeWars
         [TestCase(15, 3)]
         [TestCase(20, 4)]
         [TestCase(25, 6)]
+        [TestCase(30, 7)]
+        [TestCase(35, 8)]
+        [TestCase(40, 9)]
+        [TestCase(45, 10)]
+        [TestCase(50, 12)]
+        [TestCase(100, 24)]
         [TestCase(531, 131)]
+        [TestCase(1000, 249)]
         public void WhenPassingValidInt_ShouldReturnNumberOfTrailingZerox(int input, int expected)
         {
             
-            var result = _TrailingZeros.TrailingZero1(input);
+            var result = _TrailingZeros.TrailingZero(input);
             result.Should().Be(expected);
         }
     }
@@ -33,62 +40,17 @@ namespace CodingKata.CodeWars
     {
         public int TrailingZero(int n)
         {
-            ulong factorial = 1;
             var result = 0;
-            for (var i = 1; i <= n; i++)
-            {
-                factorial *= (ulong)i;
-            }
+            var denominator = 5;
+            var index = 1;
 
-            while ( factorial > 0 && factorial.ToString().EndsWith('0'))
+            while ((n / denominator) > 0)
             {
-                result++;
-                factorial /= 10;
+                result += n / denominator;
+                denominator = (int)Math.Pow(5,++index);
             }
-
             return result;
-        }
 
-        public int TrailingZero1(int n)
-        {
-            if (n > 0 && n < 25)
-            {
-                return n / 5;
-            }
-
-            //if (n > 10)
-            //{
-                //if (n % 10 == 0)
-                //{
-                //    return n / 5;
-                //}
-
-                //if (n % 5 == 0)
-                //{
-                    if (n >= 25)
-                    {
-                        //if ((n / 5) % 5 == 0)
-                        //{
-                        //    return (n / 5) + (n / 25);
-                        //}
-
-                        return (n / 5) +  25;
-                    }
-                   
-                    //return n / 5;
-                //}
-
-                //if (n / 5 > 0 && n % 5 >= 0)
-                //{
-                //    return (n / 5) + 25;
-                //}
-
-                //return n / 5;
-            //}
-
-            
-
-            return 0;
         }
     }
 }
